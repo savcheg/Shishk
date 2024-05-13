@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    padding: 20px 40px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+}

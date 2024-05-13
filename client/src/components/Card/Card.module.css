@@ -1,0 +1,42 @@
+.card {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.image {
+    border-radius: 5px;
+    background: #f8f8f8;
+    content: '';
+    aspect-ratio: 4/3;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+}
+
+.description {
+    opacity: 0.8;
+    background: none;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #5B9179;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #527362;
+}
